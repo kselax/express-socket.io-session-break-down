@@ -1,5 +1,6 @@
 var cookieparser = require("cookie-parser");
 var debug = require("debug")("express-socket.io-session");
+// cyclic redundancy check
 var crc = require("crc").crc32;
 // The express session object will be set
 // in socket.handskake.session.
